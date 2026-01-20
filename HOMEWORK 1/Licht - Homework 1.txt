@@ -1,0 +1,13 @@
+﻿Licht 
+Remington Licht
+Rachel Cronk
+MART 120
+19 January, 2026
+Homework 1 - GUI v.s. CLI
+        CLI (Command Line Interface) is a text-based interface where the user manually types in commands to operate a system. GUI (graphical User Interface) is a system that uses windows, buttons, menus and icons to allow the user to interact with it. Both have distinct functions which help define the two apart. The first difference is navigation. GUI systems are easier to navigate because there is less to memorize compared to a CLI system. GUI systems are easier to navigate because of their visual elements. GUI systems are also easier to use when multitasking. Although GUI systems are more user friendly, they are slower and require more technology to use. CLI systems are faster because they do not have to render extra graphics. They also only require a keyboard while a GUI system requires both a keyboard and mouse. Other benefits of CLI systems include more precision, less memory consumption, and are more powerful when it comes to scripting sequences. Other benefits of GUI systems include a customizable interface and less errors.
+
+
+Citations
+
+
+“Difference between CLI and Gui.” GeeksforGeeks, GeeksforGeeks, 22 Sept. 2025, www.geeksforgeeks.org/operating-systems/difference-between-cli-and-gui/.

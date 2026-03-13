@@ -1,0 +1,62 @@
+<html>
+    <head>
+     <title>Contact Me</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <script 
+         src="<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </script>
+    <script>
+        function checkboxes()
+    {
+     var Name = document.getElementById("fName").value;
+     var email = document.getElementById("eAddress").value;
+     var yesclicked = document.getElementById("yesbtn").checked;
+     if(Name == "")
+     {
+        document.getElementById("fName").style.backgroundColor = "red";
+        document.getElementById("fName").focus();
+     }
+     else 
+     {
+        document.getElementById("fName").style.backgroundColor = "white"
+     }
+
+     if(email == "")
+     {
+        document.getElementById("eAddress").style.backgroundColor = "red";
+     }
+     else 
+     {
+        document.getElementById("eAddress").style.backgroundColor = "white"
+     }
+    
+     if(yesclicked == true)
+     {
+        
+     }
+     else
+     {
+        window.alert("you must agree to the conditions")
+     }
+    
+    }
+    </script>
+    </head>
+    <body>
+        <div>
+     
+     Full Name: <input type="text" id="fName" required><br>
+     Email Address: <input type="text" id="eAddress" required><br>
+     <h3>Agree to terms and conditions?</h3>
+     <input type="radio" name="yesno" value="yes" id="yesbtn">yes<br>
+     <input type="radio" name="yesno" value="no">no<br>
+     <button onclick="checkboxes();" class="btn btn-primary">Submit</button>
+     
+     </div>
+    </body><br>
+
+     <a href="Website_about_Remington.html">Homepage</a>
+     <a href="Website_about_Remington_story.html">Story Page</a>
+
+</html>     

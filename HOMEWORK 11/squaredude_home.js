@@ -24,13 +24,13 @@ function draw()
 {
     background(50);
 
-     // exit
-    fill(250,250,250);
-    rect(475,475,50,75);
-
     // square dude :)
     fill(0,250,0);
     square(xd,yd,25);
+    
+    // exit
+    fill(250,250,250);
+    rect(475,475,50,75);
      
     // obstacles
     fill(250,0,0);
@@ -73,7 +73,7 @@ function draw()
     //exit function
     if(xd >= 500 && yd >=500)
     {
-        text("You Win!", width/2-50, height/2-50);
+        text("You Win!", width/2+25, height/2+25);
     }
 
 }
